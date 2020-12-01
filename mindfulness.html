@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+  width: 100%;
+  background-color: #203647;
+  overflow: auto;
+  position: absolute;
+  top: 0%;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: #eefbfb;
+  text-decoration: none;
+  font-size: 17px;
+  width: 20%; /* Four links of equal widths */
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #007cc7;
+}
+
+.navbar a.active {
+  background-color: #4da8da;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+p {text-align: center; vertical-align: center;
+    color: #12232e;
+}
+</style>
+
+<body style="background-color:powderblue;">
+<div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="sleep.html">Sleep</a>
+  <a href="food.html">Food</a>
+  <a class="active" href="#mindfulness">Mindfulness</a>
+  <a href="exercise.html">Exercise</a>
+</div>
+<div style="width: 300px; float:left; height:100px; background: powderblue ; margin:100px;">
+  <p style="margin-top:4.5em">
+    Mindfulness involves paying attention, on purpose,
+    non-judgmentally in the present moment.
+    Mindfulness has its roots in Buddhism, but anyone can try it.
+    With practice, Mindfulness should become easier
+    to use and be more accessible when you need it most.
+    Mindfulness helps to increase our awareness of our thoughts and experiences
+    as well what’s going on around us. 
+    
+  </p>
+</div>
+<div style="width: 200px; float:left; height:100px; background: powderblue; margin:100px">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/w6T02g5hnT4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <dl >
+  <dt><a href="https://www.nhs.uk/conditions/stress-anxiety-depression/mindfulness/" target = "_blank">NHS tips on mindfulness</a><dt>
+  <dt><a href="https://www.mindful.org/what-is-mindfulness/" target = "_blank">What is mindfulness?</a></dt>
+  <dt><a href="https://www.headspace.com/mindfulness" target = "_blank">Headspace's guide to mindfulness</a></dt>
+  <dl>
+</div>
+</body>
+</html>
